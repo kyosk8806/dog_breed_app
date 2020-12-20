@@ -1,0 +1,58 @@
+header {
+		background-color: white;
+		height: 100px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+}
+
+.header-logo {
+		font-family: 'Caveat', cursive;
+		font-weight: bold;
+		color: black;
+		font-size: 60px;
+		text-decoration:none;                   /* 下線 */
+		text-align: center;
+}
+
+.main {
+	height: 1000px;
+}
+
+.main_img {
+		background-position: center;        /* 画像の表示位置を指定 */
+		background-size: cover;               /* 画像のサイズを指定  */
+		display: block;                               /* 中央配置  */
+		margin: auto;
+		width: 750px;                                /* 横幅のサイズを指定  */
+		height: 450px;
+}
+
+h2 {
+		color: #444444;
+		margin: 30px 0px;
+		text-align: center;
+}
+
+.answer {
+		color: #444444;
+		margin: 50px 0px 30px 0px;
+		text-align: center;
+}
+
+form {
+		text-align: center;
+}
+
+.file_choose {
+		cursor: pointer;
+}
+
+.btn {
+		cursor: pointer;
+}
+
+.btn:hover {
+	position: relative;
+	top: 1px;
+	left: 1px;
+}
